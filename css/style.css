@@ -1,0 +1,47 @@
+/*navbar*/
+.nav-logo {
+  width: 68px
+}
+.navbar {
+  background: white;
+}
+.navbar-brand {
+  color: #547980;
+}
+.nav-link {
+  color: #547980;
+  cursor: pointer;
+  margin-left: 2em;
+}
+a:hover {
+  color: #FC766A !important;
+}
+
+
+.fixed-header {
+    position: fixed;
+}
+nav div {
+    visibility: hidden;
+}
+.visible-title {
+    visibility: visible;
+}
+
+
+/*masterheading*/
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.master-logo {
+  width: 130px;
+}
+.master-hr {
+  border-top: 1px solid rgba(0,0,0,.7);
+  height:5px;
+}
